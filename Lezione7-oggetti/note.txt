@@ -1,0 +1,16 @@
+4 definizione di oggett
+-letterale, crea oggetti al volo
+-costruttore con funzione 
+-json notazione a stringhe javascript object notation
+
+la variabile diventa -> proprietà
+la funzione diventa -> metodo
+
+   ^
+ / ! \ : attenzione alla notazione 
+/_____\
+
+nota: js è prototype based e non class based 
+
+
+
