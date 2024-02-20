@@ -21,13 +21,27 @@ let studente = {
   ],
 
   descriviStudente() {
-    console.log(`lo studente ${this.nome} ${this.cognome}, avente matricola: ${this.matricola}, frequenta i seguenti corsi\n`)
+    let presentazione=`lo studente ${this.nome} ${this.cognome}, avente matricola: ${this.matricola}, frequenta i seguenti corsi\n`;
+    
     for(let i=0; i<this.materia.length; i++)
     {
-        console.log(this.materia[i].nomeMat+ " per "+ this.materia[i].ore);
+        presentaione+=`${materia.nomeMat} - ${materia.ore}`;
     };
-    
+    return presentazione;
   },
 };
 
 studente.descriviStudente();
+
+
+// descriviStudente() {
+//     let presentazione=`lo studente ${this.nome} ${this.cognome}, avente matricola: ${this.matricola}, frequenta i seguenti corsi\n`;
+//     array.forEach(element => {
+        
+//         for(let i=0; i<this.materia.length; i++)
+//     });
+//     {
+//         presentaione+=`${materia.nomeMat} - ${materia.ore}`;
+//     };
+//     return presentazione;
+//   },
